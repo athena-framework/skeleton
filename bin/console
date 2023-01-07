@@ -1,0 +1,6 @@
+#!/usr/bin/env crystal
+
+require "athena-console"
+require "../src/main"
+
+ADI.container.athena_console_application.run

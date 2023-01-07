@@ -1,0 +1,3 @@
+require "./main"
+
+ATH.run

@@ -1,0 +1,16 @@
+name: skeleton
+
+version: 0.1.0
+
+crystal: ~> 1.6
+
+license: MIT
+
+targets:
+  server:
+    main: src/server.cr
+
+dependencies:
+  athena:
+    github: athena-framework/framework
+    commit: f5cf452f18299d2b903a9286ecd5b8c5a31a6ee3
