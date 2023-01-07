@@ -14,3 +14,8 @@ dependencies:
   athena:
     github: athena-framework/framework
     commit: f5cf452f18299d2b903a9286ecd5b8c5a31a6ee3
+
+development_dependencies:
+  athena-spec:
+    github: athena-framework/spec
+    version: ~> 0.3.0
