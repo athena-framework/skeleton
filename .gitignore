@@ -3,5 +3,3 @@ lib/
 bin/
 .shards/
 *.dwarf
-
-!bin/console
