@@ -15,8 +15,11 @@ Template repository to get up and running quickly with the Athena Framework whic
 1. Update `./LICENSE` with your desired name/email
 1. Start creating your application!
 
-## Entrypoints
+### Entrypoints
 
-The template repository includes binary entrypoint for both HTTP and CLI contexts that make it easy to deploy the HTTP server and the console binaries separately as needed.
+The template repository includes build targets for both the HTTP and CLI contexts.
+Or in other words, `./bin/console` and `./bin/server` binaries are created by running `shards build`.
+This makes it easy to deploy both parts of the application independently from one another.
 
-> **TIP:** The `shards run` command may be used during development to interact with the console. E.g. `shards run console -- debug:router`.
+> **TIP:** The `shards run` command may be used during development to interact with each target. 
+> E.g. `shards run server` to start the server and `shards run console -- debug:router` to execute console commands.
