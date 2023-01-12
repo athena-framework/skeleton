@@ -1,6 +1,6 @@
 # skeleton
 
-Template repository to get up and running quickly with the Athena Framework and includes:
+Template repository to get up and running quickly with the Athena Framework which includes:
 
 * A flexible directory structure
 * Pre-configured binary entrypoints for HTTP and CLI contexts
