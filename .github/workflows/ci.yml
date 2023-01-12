@@ -33,7 +33,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install Dependencies
-        run: shards install --frozen
+        run: shards install
       - name: Ameba
         run: ./bin/ameba
   test:
@@ -55,6 +55,6 @@ jobs:
         with:
           crystal: ${{ matrix.crystal }}
       - name: Install Dependencies
-        run: shards install --production
+        run: shards install
       - name: Specs
         run: crystal spec -Dstrict_multi_assign --order=random --error-on-warnings
