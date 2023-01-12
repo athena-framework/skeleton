@@ -6,6 +6,8 @@ require "./exceptions/*"
 module MyApp
   VERSION = "0.1.0"
 
+  module Entities; end
+
   module Exceptions; end
 
   module Domain; end
