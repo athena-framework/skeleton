@@ -3,6 +3,7 @@ require "athena"
 require "./commands/*"
 require "./controllers/*"
 require "./domain/*"
+require "./entities/*"
 require "./exceptions/*"
 require "./listeners/*"
 
@@ -13,11 +14,11 @@ module MyApp
 
   module Controllers; end
 
+  module Domain; end
+
   module Entities; end
 
   module Exceptions; end
-
-  module Domain; end
 
   module Listeners; end
 end

@@ -12,6 +12,7 @@ Template repository to get up and running quickly with the Athena Framework whic
 1. [Generate](https://github.com/athena-framework/skeleton/generate) a new repository using this template.
 1. Run `shards install`
 1. Rename `MyApp` module within `src/main.cr` to your desired name
+1. Rename `skeleton` shard name within `shard.yml` to your desired name
 1. Update `./LICENSE` with your desired name/email
 1. Start creating your application!
 

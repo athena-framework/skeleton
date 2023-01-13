@@ -1,6 +1,8 @@
 # `src/commands`
 
-The `src/commands` directory contains all of the [console commands](https://athenaframework.org/components/console/) for your application. These can be used for administrative tasks, or as an alternative way to interact with the application. The commands may also reuse the same services defined in the rest of the application.
+The `src/commands` directory contains all of the [console commands](https://athenaframework.org/components/console/) for your application.
+These can be used for administrative tasks, or as an alternative way to interact with the application such as for cron jobs.
+The commands may also reuse the same services defined in the rest of the application.
 
 ```crystal
 @[ACONA::AsCommand("app:create-user")]
@@ -14,7 +16,7 @@ class CreateUserCommand < ACON::Command
     # Implement all the business logic here.
 
     # Indicates the command executed successfully.
-    ACON::Command::Status::SUCCESS
+    Status::SUCCESS
   end
 end
 ```
