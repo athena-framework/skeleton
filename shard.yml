@@ -15,12 +15,12 @@ targets:
 dependencies:
   athena:
     github: athena-framework/framework
-    commit: 726ee942afd02de3afd6e461d35a3e28277b54e4
+    commit: 95e1b5cf214e2f1a97e8069e64d10673bd37dffa
 
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
-    version: ~> 1.3.0
+    version: ~> 1.4.0
   athena-spec:
     github: athena-framework/spec
     version: ~> 0.3.0

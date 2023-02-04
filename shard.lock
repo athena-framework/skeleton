@@ -2,11 +2,11 @@ version: 2.0
 shards:
   ameba:
     git: https://github.com/crystal-ameba/ameba.git
-    version: 1.3.1
+    version: 1.4.0
 
   athena:
     git: https://github.com/athena-framework/framework.git
-    version: 0.17.1+git.commit.726ee942afd02de3afd6e461d35a3e28277b54e4
+    version: 0.17.1+git.commit.95e1b5cf214e2f1a97e8069e64d10673bd37dffa
 
   athena-config:
     git: https://github.com/athena-framework/config.git
@@ -14,15 +14,15 @@ shards:
 
   athena-console:
     git: https://github.com/athena-framework/console.git
-    version: 0.3.0
+    version: 0.3.1
 
   athena-dependency_injection:
     git: https://github.com/athena-framework/dependency-injection.git
-    version: 0.3.4
+    version: 0.3.5
 
   athena-event_dispatcher:
     git: https://github.com/athena-framework/event-dispatcher.git
-    version: 0.2.0
+    version: 0.2.1
 
   athena-image_size:
     git: https://github.com/athena-framework/image-size.git
@@ -42,7 +42,7 @@ shards:
 
   athena-spec:
     git: https://github.com/athena-framework/spec.git
-    version: 0.3.1
+    version: 0.3.2
 
   athena-validator:
     git: https://github.com/athena-framework/validator.git
