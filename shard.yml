@@ -1,0 +1,26 @@
+name: skeleton
+
+version: 0.1.0
+
+crystal: ~> 1.6
+
+license: MIT
+
+targets:
+  server:
+    main: src/server.cr
+  console:
+    main: src/console.cr
+
+dependencies:
+  athena:
+    github: athena-framework/framework
+    version: ~> 0.18.0
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    version: ~> 1.4.0
+  athena-spec:
+    github: athena-framework/spec
+    version: ~> 0.3.0
