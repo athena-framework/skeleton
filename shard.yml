@@ -15,7 +15,7 @@ targets:
 dependencies:
   athena:
     github: athena-framework/framework
-    commit: 95e1b5cf214e2f1a97e8069e64d10673bd37dffa
+    version: ~> 0.18.0
 
 development_dependencies:
   ameba:
