@@ -2,7 +2,7 @@ version: 2.0
 shards:
   ameba:
     git: https://github.com/crystal-ameba/ameba.git
-    version: 1.4.1
+    version: 1.4.3
 
   athena:
     git: https://github.com/athena-framework/framework.git
@@ -42,7 +42,7 @@ shards:
 
   athena-spec:
     git: https://github.com/athena-framework/spec.git
-    version: 0.3.3
+    version: 0.3.4
 
   athena-validator:
     git: https://github.com/athena-framework/validator.git
