@@ -2,11 +2,11 @@ version: 2.0
 shards:
   ameba:
     git: https://github.com/crystal-ameba/ameba.git
-    version: 1.4.3
+    version: 1.5.0
 
   athena:
     git: https://github.com/athena-framework/framework.git
-    version: 0.18.0
+    version: 0.18.1
 
   athena-config:
     git: https://github.com/athena-framework/config.git
@@ -34,7 +34,7 @@ shards:
 
   athena-routing:
     git: https://github.com/athena-framework/routing.git
-    version: 0.1.6
+    version: 0.1.7
 
   athena-serializer:
     git: https://github.com/athena-framework/serializer.git
@@ -42,7 +42,7 @@ shards:
 
   athena-spec:
     git: https://github.com/athena-framework/spec.git
-    version: 0.3.4
+    version: 0.3.5
 
   athena-validator:
     git: https://github.com/athena-framework/validator.git
