@@ -1,4 +1,4 @@
-class ExampleController < ATH::Controller
+class MyApp::Controllers::ExampleController < ATH::Controller
   @[ARTA::Get("/")]
   def index : String
     "Welcome to Athena!"
