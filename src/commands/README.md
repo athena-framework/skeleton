@@ -20,4 +20,3 @@ class CreateUserCommand < ACON::Command
   end
 end
 ```
-

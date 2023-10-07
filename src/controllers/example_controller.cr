@@ -4,7 +4,7 @@ class ExampleController < ATH::Controller
     "Welcome to Athena!"
   end
 
-  @[ARTA::Get("/add/{a}/{b}", requirements: {"a" => /\d+/, "b" => /\d+/})]
+  @[ARTA::Get("/add/{a}/{b}", requirements: {"a" => ART::Requirement::DIGITS, "b" => ART::Requirement::DIGITS})]
   def add(a : Int32, b : Int32) : Int32
     a + b
   end

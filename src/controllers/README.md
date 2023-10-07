@@ -10,4 +10,3 @@ class ExampleController < ATH::Controller
   end
 end
 ```
-
