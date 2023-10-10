@@ -18,7 +18,7 @@ shards:
 
   athena-console:
     git: https://github.com/athena-framework/console.git
-    version: 0.3.3
+    version: 0.3.4
 
   athena-dependency_injection:
     git: https://github.com/athena-framework/dependency-injection.git
