@@ -22,7 +22,7 @@ shards:
 
   athena-dependency_injection:
     git: https://github.com/athena-framework/dependency-injection.git
-    version: 0.3.7
+    version: 0.3.8
 
   athena-event_dispatcher:
     git: https://github.com/athena-framework/event-dispatcher.git
