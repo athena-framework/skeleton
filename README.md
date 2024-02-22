@@ -14,6 +14,7 @@ Template repository to get up and running quickly with the Athena Framework whic
 1. Rename `MyApp` module within `src/main.cr` and `src/controllers/example_controller.cr` to your desired name
 1. Rename `skeleton` shard name within `shard.yml` to your desired name
 1. Update `./LICENSE` with your desired name/email
+1. Consider pinning `crate-ci/typos` in `.github/workflows/ci.yml` to a specific version to avoid random failures as new dictionaries are published
 1. Start creating your application!
 
 ### Entrypoints
@@ -22,5 +23,5 @@ The template repository includes build targets for both the HTTP and CLI context
 Or in other words, `./bin/console` and `./bin/server` binaries are created by running `shards build`.
 This makes it easy to deploy both parts of the application independently from one another.
 
-> **TIP:** The `shards run` command may be used during development to interact with each target. 
+> **TIP:** The `shards run` command may be used during development to interact with each target.
 > E.g. `shards run server` to start the server and `shards run console -- debug:router` to execute console commands.
