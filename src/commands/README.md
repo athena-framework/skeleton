@@ -1,6 +1,6 @@
 # `src/commands`
 
-The `src/commands` directory contains all of the [console commands](https://athenaframework.org/components/console/) for your application.
+The `src/commands` directory contains all of the [console commands](https://athenaframework.org/getting_started/commands/) for your application.
 These can be used for administrative tasks, or as an alternative way to interact with the application such as for cron jobs.
 The commands may also reuse the same services defined in the rest of the application.
 
