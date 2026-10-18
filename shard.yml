@@ -2,7 +2,7 @@ name: skeleton
 
 version: 0.1.0
 
-crystal: ~> 1.14
+crystal: ~> 1.19
 
 license: MIT
 
@@ -15,12 +15,15 @@ targets:
 dependencies:
   athena:
     github: athena-framework/framework
-    version: ~> 0.22.0
+    version: ~> 0.23.0
+  athena-console:
+    github: athena-framework/console
+    version: ~> 0.5.0
 
 development_dependencies:
   ameba:
     github: crystal-ameba/ameba
-    version: ~> 1.6.0
+    version: ~> 1.7.0
   athena-spec:
     github: athena-framework/spec
     version: ~> 0.4.0

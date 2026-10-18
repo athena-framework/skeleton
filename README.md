@@ -10,12 +10,18 @@ Template repository to get up and running quickly with the Athena Framework whic
 ## Getting Started
 
 1. [Generate](https://github.com/athena-framework/skeleton/generate) a new repository using this template.
+1. Install the [system dependencies](https://athenaframework.org/getting_started/#system-dependencies), such as `libmagic`
 1. Run `shards install`
 1. Rename `MyApp` module within `src/main.cr` and `src/controllers/example_controller.cr` to your desired name
 1. Rename `skeleton` shard name within `shard.yml` to your desired name
 1. Update `./LICENSE` with your desired name/email
 1. Consider pinning `crate-ci/typos` in `.github/workflows/ci.yml` to a specific version to avoid random failures as new dictionaries are published
 1. Start creating your application!
+
+### Components
+
+Besides the framework itself, the template includes the [Console](https://athenaframework.org/Console/) component, whose bundle is registered in `src/main.cr` to support the CLI entrypoint and `src/commands/`.
+Other components, such as the [Validator](https://athenaframework.org/Validator/), are optional; see [Optional Components](https://athenaframework.org/getting_started/#optional-components) for how to add them.
 
 ### Entrypoints
 

@@ -1,4 +1,5 @@
 require "athena"
+require "athena-console/bundle"
 
 require "./commands/*"
 require "./controllers/*"
